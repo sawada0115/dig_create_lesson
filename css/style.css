@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/* 
+body
+*/
+body {
+    font-size: 20px;
+    font-family: serif;
+    color: #eee;
+    background-color:#212121;;
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* 4 */
+.col-4 {
+    width: 100%;
+}
+.col-2-side {
+    width: 15%;
+}
+
+/* header */
+.header {
+    margin: 0 20px;
+    padding: 0;
+    width: 100%;
+}
+.header > h1 {
+    font-weight: bold;
+}
+
+/* main */
+.contanier {
+    width: 100%;
+    margin: 0 auto;
+}
+.contents {
+    display: flex;
+    justify-content: space-around;
+}
+.contents-item {
+    width: 20%;
+    margin: 0 0px 10px; 
+}
+.btn-label {
+    text-align: left;
+    display: block;
+}
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    /* pointer-events; */
+}
+
+/* head */
+.title-headline {
+    width: 100%;
+    margin: 20px 0;
+}
+.h2-title-headline {
+    border-bottom: 2px solid rgb(187, 187, 187) ;
+    width: 100%;
+    font-size: 30px;
+    margin: 10px 0;
+    padding-left: 25px;
+}
+
+/* action-btn */
+#start-btn, #end-btn {
+    display: none;
+}
+
+.btn-contents {
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+}
+.action-btn {
+    width: 15%;
+    font-weight: normal;
+}
+.header-side {
+    margin-bottom: 20px;
+}
+.footer-side {
+    margin-top: 20px;
+}
+
+/* items */
+.col-3 {
+    width: 100%;
+    text-align: center;
+}
+.items-box {
+    width: 100%;
+    margin: 10px 0;
+}
+p {
+    /* color: #212121; */
+    display: block;
+    margin: 10px 0 ;
+}
+img {
+    width: 80%;
+    margin-bottom: 20px;
+}
+.item {
+    margin: 0 auto;
+    width: 100%; 
+}
+span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* lesson */
+.lesson {
+    width: 100%;
+    text-align: center;
+}
+.lesson-btn {
+    width: 300px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 0 20px;
+}
+.lesson-p {
+    text-align: left;
+    font-weight: bold;
+}
+.lesson-box {
+    padding-left: 20px;
+}
+.example {
+    margin: 10px;
+}
+ul {
+    list-style: none;
+}
+.last {
+    margin: 0;
+}
+.time {
+    color: #333;
+    margin: 0;
+}
